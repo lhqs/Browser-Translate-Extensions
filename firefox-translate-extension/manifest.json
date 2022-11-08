@@ -1,0 +1,25 @@
+{
+  "name": "Contrast Translation",
+  "description": "Contrast Translation by lhqs.",
+  "manifest_version": 2,
+  "version": "1.0",
+  "homepage_url": "https://github.com/lhqs/Browser-Translate-Extensions",
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "default_icon": "images/transfer.svg",
+    "browser_style": true
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "icons": {
+    "128": "images/transfer-icon.png",
+    "48": "images/transfer-icon.png"
+  }
+
+}

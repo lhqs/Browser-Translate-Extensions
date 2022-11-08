@@ -1,0 +1,24 @@
+{
+    "name": "Contrast Translation",
+    "description": "Contrast Translation by lhqs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_icon": {
+        "16": "/images/transfer-16.png",
+        "32": "/images/transfer-32.png",
+        "48": "/images/transfer-48.png",
+        "128": "/images/transfer-128.png"
+      }
+    },
+    "icons": {
+      "16": "/images/transfer-16.png",
+      "32": "/images/transfer-32.png",
+      "48": "/images/transfer-48.png",
+      "128": "/images/transfer-128.png"
+    }
+  }
